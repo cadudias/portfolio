@@ -85,12 +85,12 @@ body {
   z-index: -1; /* TODO - explicar */
 }
 
-.effect-1 {
+.effect-purple-square {
   width: 30px;
   height: 30px;
   border: 4px solid #8a49ff;
   right: 10%;
-  bottom: 10%;
+  bottom: 0;
   animation: spin 10s linear infinite;
 }
 
@@ -103,13 +103,13 @@ body {
   }
 }
 
-.effect-2 {
+.effect-squares {
   left: 3%;
-  bottom: 20%;
+  bottom: 0;
   width: 40px;
 }
 
-.effect-2 div {
+.effect-squares div {
   height: 3px;
   width: 3px;
   background-color: #ff9c07;
@@ -122,19 +122,19 @@ body {
   width: 150px;
   border: 25px solid #fb839e;
   border-radius: 50%;
-  left: 40%;
+  left: 75%;
   top: -130px;
 }
 
-.effect-4 {
+.effect-triangle {
   border-top: 30px solid transparent;
   border-left: 30px solid #06d79c;
   left: 35%;
-  top: 20%;
+  top: 30%;
   animation: spin 5s linear infinite;
 }
 
-.effect-4:after  {
+.effect-triangle:after  {
   content: '';
   border-top: 30px solid transparent;
   border-left: 30px solid #06d79c;
@@ -161,7 +161,6 @@ body {
 
 
 .social-links {
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -230,7 +229,7 @@ footer {
 
 .header nav {
   position: relative;
-  float: right;
+  text-align: center;
   right: 20px;
 }
 
@@ -396,6 +395,12 @@ footer {
   min-height: 240px;
 }
 
+.skills-section .skills.tab-content:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
 .skills-section .skills .skill-item h3 {
   font-weight: 700;
   text-align: center;
@@ -448,7 +453,7 @@ footer {
 }
 
 .portfolio-section .portfolio-item-inner {
-  padding: 15px;
+  padding: 20px 15px;
   border-radius: 5px;
   width: 100%;
   cursor: pointer;
@@ -478,6 +483,3 @@ footer {
   font-weight: 700;
   color: #fb839e;
 }
-
-/* responsivo */
-
