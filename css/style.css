@@ -364,6 +364,12 @@ footer {
   width: 30%;
 }
 
+.about-section .about-img .img-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 .about-section .about-img img {
   width: 100%;
 }

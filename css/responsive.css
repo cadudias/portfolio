@@ -16,14 +16,11 @@
   }
 
   .home-section .home-img {
-    max-width: 100%;
+    max-width: 90%;
     float: none;
+    margin: 50px auto;
   }
   
-  .effect-triangle {
-    top: 15%;
-  }
-
   .header nav {
     margin-top: 40px;
   }
@@ -68,5 +65,20 @@
     width: 80%;
     margin: 0 auto;
     padding: 30px 20px;
+  }
+
+  .effect-squares {
+    left: 2;
+    top: 40%;
+  }
+
+  .effect-triangle {
+    left: 15%;
+    top: 20%;
+  }
+
+  .effect-circle {
+    left: 44%;
+    top: -152px;
   }
 }
