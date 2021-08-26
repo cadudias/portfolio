@@ -1,12 +1,6 @@
 /*
   HEADER
 */
-.header {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
 
 .header .logo {
   float: left;
@@ -127,10 +121,9 @@
 }
 
 .home-section .home-img .img-box {
-  max-width: 450px;
+  max-width: 550px;
   display: block;
   margin: auto;
-  width: 85%;
   border-radius: 50%;
   padding: 0 15px;
 }
@@ -169,7 +162,7 @@
 }
 
 .about-section .about-img img {
-  width: 100%;
+  width: 97%;
 }
 
 .about-section .about-info {
@@ -253,6 +246,11 @@
   display: block;
 }
 
+.portfolio-section .portfolio-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .portfolio-section .portfolio-item {
   float: left;
   max-width: 28%;
@@ -265,6 +263,7 @@
   border-radius: 5px;
   width: 100%;
   cursor: pointer;
+  min-height: 450px;
 }
 
 .portfolio-section .portfolio-item-inner:hover {

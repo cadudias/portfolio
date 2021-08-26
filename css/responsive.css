@@ -1,6 +1,10 @@
 @media(max-width: 956px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
+  }
+
+  .home-section .full-screen {
+    padding: 20px 0;
   }
 
   .header nav {
@@ -23,6 +27,7 @@
     max-width: 100%;
     float: none;
     width: 100%;
+    margin-top: 100px;
   }
 
   .home-section .home-img {
@@ -78,17 +83,17 @@
   }
 
   .effect-squares {
-    left: 2;
+    left: 2%;
     top: 40%;
   }
 
   .effect-triangle {
     left: 15%;
-    top: 20%;
+    top: 10%;
   }
 
   .effect-circle {
-    left: 44%;
-    top: -152px;
+    left: 60%;
+    top: -300px;
   }
 }
