@@ -7,6 +7,10 @@
     padding: 20px 0;
   }
 
+  .section {
+    padding: 30px 0;
+  }  
+
   .header nav {
     margin-top: 80px;
     right: 0;
@@ -31,7 +35,7 @@
   }
 
   .home-section .home-img {
-    max-width: 90%;
+    max-width: 80%;
     float: none;
     margin: 50px auto;
   }
