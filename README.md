@@ -1,4 +1,4 @@
-# Portfólios
+# Portfólio
 
 ![gif portfolio](https://github.com/cadudias/portfolio/blob/main/images/portfolio-ricardo.gif)
 
