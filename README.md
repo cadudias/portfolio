@@ -1,5 +1,7 @@
 # Portfólios
 
+[gif portfolio](https://github.com/cadudias/portfolio/blob/main/images/portfolio-ricardo.gif)
+
 ## Animação de rotação dos efeitos 
 
 Foi criada uma animação chamada spin que rotaciona os elementos
